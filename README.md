@@ -7,6 +7,8 @@ A simple Node/Express app with 1 api endpoint and mocha/chai tests
 
 The project has been setup from scratch using npm
 
+To restore node_modules: npm ci
+
 To run: npm start
 
 To run tests: npm test
@@ -33,6 +35,7 @@ same about tests and Redux configuration (using hooks) - I left in some comments
 
 Also, they use yarn instead of npm
 
+To restore node_modules: yarn install --frozen-lockfile
 
 To run: yarn start
 
