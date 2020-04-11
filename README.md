@@ -1,5 +1,6 @@
 As even google and git projects started with sloppy code - it would be a mistake to judge this code by completeness and perfection
 
+To restore node_modules: ./restore.sh
 
 Server:
 
@@ -44,6 +45,6 @@ For production use this templated setup is not really suitable, better to use we
 
 The server url is hardcoded in index.js - in a production app would sit in a separate config and be configured during build
 
-
+To restore node_modules: ./restore.sh
 To run both projects from the root folder: ./start.sh
 
