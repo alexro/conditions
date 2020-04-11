@@ -6,6 +6,8 @@ import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
+window.API_URL = 'http://localhost:8080/api/conditions';
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

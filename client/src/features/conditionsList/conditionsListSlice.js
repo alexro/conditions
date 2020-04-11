@@ -37,7 +37,7 @@ export const loadData = () => async (dispatch) => {
   dispatch(initialize());
   try {
     // the url will be configurable in real-world scenarious
-    const response = await fetch('http://localhost:8080/api/conditions');
+    const response = await fetch(window.API_URL);
     if (response.status !== 200) {
       dispatch(initialize([]));
       console.error(response);
