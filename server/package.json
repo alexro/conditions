@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=DEV PORT=8080 node app.js",
+    "test": "NODE_ENV=TEST PORT=9999 mocha --exit **/*.spec.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0",
+    "sinon": "^9.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
