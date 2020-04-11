@@ -2,7 +2,7 @@ As even google and git projects started with sloppy code - it would be a mistake
 
 To restore node_modules: ./restore.sh
 
-Server:
+###Server:
 
 
 A simple Node/Express app with 1 api endpoint and mocha/chai tests
@@ -20,7 +20,7 @@ For production use will need a lot of extra stuff: hotreload, middleware, loggin
 Also, the data would be served from a remote location, not local drive. And the data should be streamed.
 
 
-Client:
+###Client:
 
 
 A React/Redux app with 1 page view to display data coming from server above using Styled components
@@ -44,6 +44,8 @@ To run tests: yarn test --watchAll=false
 For production use this templated setup is not really suitable, better to use webpack to have more control.
 
 The server url is hardcoded in index.js - in a production app would sit in a separate config and be configured during build
+
+#### To run both projects and open url in the browser - uses port 8080 for server and 3000 for client
 
 To restore node_modules: ./restore.sh
 
