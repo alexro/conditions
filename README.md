@@ -52,4 +52,6 @@ To restore node_modules: ./restore.sh
 
 To run both projects from the root folder: ./start.sh
 
+To stop both servers: close terminal window
+
 #### Uses port 8080 for server and 3000 for client
