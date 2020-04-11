@@ -1,7 +1,5 @@
 As even google and git projects started with sloppy code - it would be a mistake to judge this code by completeness and perfection
 
-To restore node_modules: ./restore.sh
-
 ## Server:
 
 
