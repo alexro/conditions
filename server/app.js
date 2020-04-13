@@ -4,8 +4,8 @@ const express = require('express');
 const cors = require('cors');
 const apiRoutes = require('./api/routes');
 
-const ADDR = process.env.ADDR || 'localhost';
-const PORT = process.env.PORT || 8080;
+const ADDR = process.env.ADDR || '0.0.0.0';
+const PORT = process.env.PORT || 3080;
 
 const app = express();
 app.use(cors());

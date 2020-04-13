@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=DEV PORT=8080 node app.js",
+    "start": "NODE_ENV=DEV PORT=3080 node app.js",
     "test": "NODE_ENV=TEST PORT=9999 mocha --exit **/*.spec.js"
   },
   "devDependencies": {

@@ -1,0 +1,14 @@
+# docker-compose.yaml
+version: "3.3"
+services:
+  server:
+    image: conditions:server
+    ports:
+      - 3080:3080    
+
+  client:
+    image: conditions:client
+    depends_on:
+        - server    
+    ports:
+      - 3081:3081
