@@ -45,7 +45,7 @@ For production use this templated setup is not really suitable, better to use we
 
 The server url is hardcoded in index.js - in a production app would sit in a separate config and be configured during build
 
-#### To run both projects and open url in the browser:
+## Server & Client:
 
 To restore node_modules: ./restore.sh
 
@@ -53,4 +53,13 @@ To run both projects from the root folder: ./start.sh
 
 To stop both servers: close terminal window
 
-#### Uses port 8080 for server and 3000 for client
+** Uses port 3080 for server and 3081 for client **
+
+## Docker
+
+To automatically build the images for server and client, start with docker-compose and open the url
+use: ./docker-start.sh
+
+To stop: ./docker-stop.sh
+
+** docker and docker-compose should be installed **
