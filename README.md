@@ -33,13 +33,12 @@ So the project structure is opionated by the React/Redux team,
 same about tests and Redux configuration (using hooks) - I left in some comments from them to help understand
 
 
-Also, they use yarn instead of npm
 
-To restore node_modules: yarn install --frozen-lockfile
+To restore node_modules: npm ci
 
-To run: yarn start
+To run: npm start
 
-To run tests: yarn test --watchAll=false
+To run tests: npm test -- --watchAll=false
 
 
 For production use this templated setup is not really suitable, better to use webpack to have more control.

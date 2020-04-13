@@ -1,1 +1,1 @@
-cd server && npm ci && cd ../client && yarn install --frozen-lockfile
+cd server && npm ci && cd ../client && npm ci
