@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p ~/.local/share/fonts
+for type in Bold Light Medium Regular Retina; do wget -O ~/.local/share/fonts/FiraCode-$type.ttf "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-$type.ttf?raw=true"; done
+fc-cache -f
+
+# code --list-extensions | xargs -n 1 code --uninstall-extension
+# cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension
+
+apt-get install build-essential
